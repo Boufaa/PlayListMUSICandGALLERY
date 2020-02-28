@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+
+
+video{
+  width: 100%;
+  height: 100%;
+}
+.middle{
+  position: absolute;
+  top: 68%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+  flex-direction: row;
+  display: flex;
+}
+.btn{
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 26px;
+  font-family: "montserrat";
+  text-decoration: none;
+  margin: 0 37px;
+  border: 2px solid #84D4F7;
+  padding: 14px 60px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+  opacity: 75%;
+}
+.btn::before{
+  background: #84D4F7;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+.btn3::before{
+  width: 100%;
+  height: 0%;
+  transform: translate(-50%,-50%) rotate(45deg);
+}
+.btn3:hover::before{
+  height: 380%;
+}
+
+.btn4::before{
+  width: 100%;
+  height: 0%;
+  transform: translate(-50%,-50%) rotate(-45deg);
+}
+.btn4:hover::before{
+  height: 380%;
+}
+
+
+.text{
+  position: absolute;
+  top: 46%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+  font-size: 5.56em;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #fff;
+  background-color: #84D4F7;
+  font-family: "montserrat",sans-serif;
+  opacity: 75%;
+  
+}
+
+
+
+
+
+.text2{
+  position: absolute;
+  top: 58%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+  font-size: 3.2em;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "montserrat",sans-serif;
+  opacity: 75%;
+  
+}
+
+#ima{
+  position: absolute;
+  width: 50%;
+  
+  top: 4%;
+  left: 25%;
+  opacity: 75%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
